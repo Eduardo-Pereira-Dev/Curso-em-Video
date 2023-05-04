@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    font-weight: normal;
+    src: url('font/idroid.otf');
+}
+:root{
+    --cor0: #5A6B62;
+    --cor1: #81EEB2;
+    --cor2: #C5EBD6;
+    --cor3: #3A6B50;
+    --cor4: #9AB8A7;
+}
+body{
+    background-color: var(--cor2);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+#topo{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+}
+#topo>h1{
+    color: white;
+    margin: 0px;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--cor0);
+}
+#topo>p{
+    color: white;
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
+}
+#menu>a{
+    color: white;
+    font-size: 18px;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+#menu>a:hover{
+    text-shadow: 1px 1px 1px black;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.651);
+}
+#principal{
+    background-color: white;
+    border-radius: 0px 0px 6px 6px;
+    box-shadow: 0px 1px 6px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    margin: 0% 15% 0% 15%;
+    min-width: 320px;
+    max-width: 2560px;
+}
+#principal>h1{
+    margin: 0px 30px 0px 30px;
+    padding: 30px 0px 20px 0px;
+    text-shadow: 1px 1px 1px black;
+}
+#principal>h2{
+    background-image: linear-gradient(to right,#c5ebd696, white);
+    border-radius: 15px 15px;
+    margin: 10px 30px 10px 30px;
+    padding: 6px 0px 6px 0px;
+    text-shadow: 1px 1px 1px black;
+}
+#principal>p{
+    margin: 0px 30px 0px 30px;
+    padding: 0px 0px 0px 0px;
+    text-align: justify;
+}
+.img_flex{
+    text-align: center;
+    margin: 10px 0px;
+    width: 100%;
+}
+.media{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: var(--cor0);
+}
+#extra{
+    background-color: var(--cor2);
+    border-radius: 9px;
+    box-shadow: 0px 1px 6px black;
+    margin: 10px 30px;
+}
+#extra>h3{
+    color: white;
+    border-radius: 9px 9px 0px 0px;
+    background-color: var(--cor3);
+    margin: 0px;
+    padding: 10px 15px;
+    text-shadow: 1px 1px 1px black;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.349);
+}
+#extra>p{
+    text-align: justify;
+    margin: 6px 15px 6px 15px;
+}
+#extra>ul{
+    display: inline-block;
+    margin: 15px;
+    padding: 0px 15px;
+}
+#extra>ul>li>abbr{
+    text-decoration: none;
+}
+#rodape{
+    text-align: center;
+}

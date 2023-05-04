@@ -1,0 +1,114 @@
+@charset "UTF8";
+@font-face {
+    font-family: 'Droid';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fontes/droid.otf') format('opentype'), url('fontes/droid_ios.otf') format('opentype');
+}
+body{
+    background-color: rgb(121 251 197);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+#topo{
+    background-image: linear-gradient(to bottom, rgba(0, 187, 115, 0.952), rgb(0, 102, 0));
+    display: grid;
+    margin: 0px;
+}
+#topo>h1{
+    color: white;
+    font-size: 3em;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.658);
+}
+#topo>p{
+    color: rgb(241, 238, 238);
+    font-size: 1.5em;
+    left: 31%;
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.658);
+    width: 500px;
+}
+#menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 0px 9px 0px;
+}
+#menu>li{
+    display: inline;
+    margin-left: 0px;
+    padding-left: 20px;
+    text-align: left;
+}
+#menu>li>a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+#menu>li>a:hover{
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.726);
+}
+#principal{
+    background-color: white;
+    border-radius: 0px 0px 6px 6px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.568);
+    margin: 0px 180px 0px 180px;
+}
+#principal>h1{
+    font-size: 36px;
+    font-family:'Droid', Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 30px;
+    padding: 20px 0px 20px 0px;
+}
+#principal>h2{
+    background-image: linear-gradient(to right, rgba(121, 251, 197, 0.270), white);
+    margin: 0px 0px 0px 30px;
+}
+#principal>p{
+    margin: 0px 30px 0px 30px;
+    padding: 10px 0px 10px 0px;
+    text-align: justify;
+    text-indent: 25px;
+}
+#principal>.img_flex{
+    display: block;
+    text-align: center;
+}
+#bugdroid{
+    position: relative;
+    left: 30%;
+}
+#extra{
+    background-color: rgba(121, 251, 197, 0.270);
+    border-radius: 0px 0px 9px 9px;
+    margin: 0px 20px 0px 20px;
+    font-size: 22px;
+}
+#extra>h2{
+    background-color: rgba(0, 187, 115, 0.952);
+    border-radius: 10px 10px 0px 0px;
+}
+#extra>p{
+    text-align: justify;
+    margin: 0px 20px 0px 20px;
+    padding: 6px;
+}
+#extra>ul{
+    display: inline-block;
+}
+.list2{
+    padding-left: 280px;
+}
+#extra>ul>li>a{
+    color: black;
+}
+#extra>ul>li>a:hover{
+    color: blue;
+}
+#rodape{
+    text-align: center;
+}

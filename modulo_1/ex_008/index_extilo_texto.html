@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Texto</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+
+    <h2>Negrito / Destaque:</h2>
+    <p>
+        Nessa frase temos um termo em <b>negrito</b> usando a tag &lt;b&gt; (não semântica)
+    </p>
+    <p>
+        Nessa frase temos um termo em <strong>negrito</strong> usando a tag &lt;strong&gt; (semântica)
+    </p>
+
+    <h2>Itálico / Ênfase:</h2>
+    <p>
+        Nessa frase temos um termo em <i>Itálico</i> usando a tag &lt;i&gt; (não semântica)
+    </p>
+    <p>
+        Nessa frase temos um termo em <em>Itálico</em> usando a tag &lt;em&gt; (semântico)
+    </p>
+
+    <h2>Texto Marcado:</h2>
+    <p>
+        Podemos criar um texto <mark>marcado</mark> usando a tag &lt;mark&gt;
+    </p>
+
+    <h2>Texto Deletado / Inserido:</h2>
+    <p>
+        Podemos marcar um texto como <del>excluído</del> para indicar que ele pode ser lido, mas desconsiderado, usando a tag &lt;del&gt;
+    </p>
+    <p>
+        Podemos marcar um texto como <u>inserido</u> com a tag &lt;u&gt; (não semântico)
+    </p>
+    <p>
+        Podemos marcar um texto como <ins>inserido</ins> com a tag &lt;ins&gt; (semântica)
+    </p>
+
+    <h2>Texto Sobrescrito / Texto Subscrito:</h2>
+    <p>
+        Exemplo de texto Sobrescrito x<sup>20+3</sup>, para fórmulas matemáticas por exemplo, usando a tag &lt;sup&gt;
+    </p>
+    <p>
+        Exmplo de texto Subescrito H<sub>2</sub>O, para fórmulas químicas por exemplo, usando a tag &lt;sub&gt;
+    </p>
+
+    <h1>Outras Formatações</h1>
+
+    <h2>Código-Fonte:</h2>
+    <p>
+        O comando <code>document.getElementById('teste')</code> é escrito usando a tag &lt;code&gt;
+    </p>
+    <p>
+        Outra formar é usar a tag &lt;code&gt; dentro da tag &lt;pre&gt; para exemplos de códigos maiore que ele vai considerar até a identação do código
+    </p>
+    <pre>
+        <code>
+            var str = 'Terminal Root';
+            
+            if(str.match(/Root/)){
+                document.write('Encontrou');
+            }else{
+                document.write('Palavra Não Encontrada');
+            }
+        </code>
+    </pre>
+
+    <h2>Citações Simples:</h2>
+    <p>
+        Como diria o filósofo Pitomba, <q>Nobre é o guerreiro que não tem medo de sujar sua espada de sangue</q>. Tag &lt;q&gt;
+    </p>
+
+    <h2>Citções Completas:</h2>
+    <p>
+        França quer proibir pais de postar foto de filhos nas redes sociais segundo g1. Tag &lt;blockquote cite="URL"&gt;
+    </p>
+    <blockquote cite="https://g1.globo.com/mundo/noticia/2023/04/19/franca-quer-proibir-pais-de-postar-fotos-dos-filhos-nas-redes-sociais.ghtml">
+        Até os 13 anos de idade, cada criança já possui, em média, cerca de 1.300 fotos circulando na rede, alertou a ativista pelos direitos infantis Anne Longfield em um relatório de 2018, quando atuava como Comissária da Infância na Inglaterra. O fenômeno tem até um nome próprio: "sharenting", formado pelas palavras em inglês "to share" (compartilhar) e "parenting" (parentalidade)
+    </blockquote>
+    <h2>Citações de Livros, Filmes ou Artigos de Pesquisa:</h2>
+    <p>
+        <cite>Avengers</cite> da Marvel é número um de bilheteria nos cinemas. Tag &lt;cite&gt;
+    </p>
+
+    <h2>Abreviações:</h2>
+    <p>
+        Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> no Curso em Vídeo com o professor Gustavo Guanabara e HTML foi abreviado com a tag &lt;abbr&gt;
+    </p>
+
+    <h2>Definições:</h2>
+    <p>
+        Na primeira vez que você ensina algum conceito acadêmico ou jargão. Tag &lt;dfn&gt;
+        <br />
+        A <dfn>Black Hole</dfn> is a region of space from which nothing, not even light, can escape.
+    </p>
+
+    <h2>Detalhes do Autor:</h2>
+    <p>
+        O elemento &lt;address&gt; tem uma utilização muito específica: conter detalhes para contato com o autor.
+    </p>
+    <address>
+        <p>
+            <a href="#">edupereira331@gmail.com</a>
+        </p>
+        <p>
+            Avenida DF425 Km3, Condomínio Residêncial Mansões Sobradinho 2, Contagem.
+        </p>
+        <p>
+            (61)986220375
+        </p>
+    </address>
+</body>
+</html>
