@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            margin: 0% 3% 0 3%;
+            padding: 0%;
+        }
+        table{
+            border-collapse: collapse;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.2em;
+            position: relative;
+            width: 100%;
+        }
+       thead{
+            background-color: rgba(61, 114, 161, 0.685);
+        }
+        .porcentagem{
+            text-align: right;
+        }
+        td{
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;  
+        }
+        .population{
+            text-align: right;
+        }
+        thead>tr>td{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(61, 114, 161);
+        }
+        tbody>tr:nth-child(2n){
+            background-color: rgb(206, 205, 205);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas</h1>
+    <h2>Por Unidade Federativa</h2>
+    <table>
+        <caption>População das Unidades Federativas do Brasil</caption>
+        <thead>
+            <tr>
+                <td><strong>Posição</strong></td>
+                <td><strong>Unidade Federativa</strong></td>
+                <td><strong>População</strong></td>
+                <td><strong>% da pop. total</strong></td>
+                <td><strong>País Comparável</strong></td>
+            </tr>
+        </thead>
+        <tr>
+            <td class="nome">1</td>
+            <td class="nome">São Paulo</td>
+            <td class="population">41 262 199</td>
+            <td class="porcentagem">22.2%</td>
+            <td class="pais">Espanha</td>
+        </tr>
+        <tr>
+            <td class="nome">2</td>
+            <td class="nome">Minas Gerais</td>
+            <td class="population">19 597 330</td>
+            <td class="porcentagem">10,0%</td>
+            <td class="pais">Burguina Fasso</td>
+        </tr>
+        <tr>
+            <td class="nome">3</td>
+            <td class="nome">Rio de Janeiro</td>
+            <td class="population">15 989 929</td>
+            <td class="porcentagem">8,0%</td>
+            <td class="pais">Camboja</td>
+        </tr>
+        <tr>
+            <td class="nome">4</td>
+            <td class="nome">Bahia</td>
+            <td class="population">14 016 906</td>
+            <td class="porcentagem">7,1%</td>
+            <td class="pais">Zimbabuwe</td>
+        </tr>
+        <tr>
+            <td class="nome">5</td>
+            <td class="nome">Paraná</td>
+            <td class="population">10 444 526</td>
+            <td class="porcentagem">5,7%</td>
+            <td class="pais">Tunísia</td>
+        </tr>
+        <tr>
+            <td class="nome">6</td>
+            <td class="nome">Rio Grande do Sul</td>
+            <td class="population">10 693 929</td>
+            <td class="porcentagem">5,3%</td>
+            <td class="pais">Cuba</td>
+        </tr>
+        <tr>
+            <td class="nome">7</td>
+            <td class="nome">Pernambuco</td>
+            <td class="population">8 796 448</td>
+            <td class="porcentagem">4.4%</td>
+            <td class="pais">Áustria</td>
+        </tr>
+        <tr>
+            <td class="nome">8</td>
+            <td class="nome">Ceará</td>
+            <td class="population">8 452 381</td>
+            <td class="porcentagem">4,3%</td>
+            <td class="pais">Papua-Nova Guiné</td>
+        </tr>
+        <tr>
+            <td class="nome">9</td>
+            <td class="nome">Pará</td>
+            <td class="population">7 581 051</td>
+            <td class="porcentagem">4.1%</td>
+            <td class="pais">Suíça</td>
+        </tr>
+        <tr>
+            <td class="nome">10</td>
+            <td class="nome">Santa Catarina</td>
+            <td class="population">6 248 436</td>
+            <td class="porcentagem">3.7%</td>
+            <td class="pais">Paraguai</td>
+        </tr>
+    </table>
+    <h2>Por Região</h2>
+    <table>
+        <caption>População das Regiões do Brasil</caption>
+        <thead>
+             <tr>
+                <td><strong>Posição</strong></td>
+                <td><strong>Região</strong></td>
+                <td><strong>População</strong></td>
+                <td><strong>% da pop. total</strong></td>
+                <td><strong>País Comparável</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Região Sudeste</td>
+            <td class="population">87 481 631</td>
+            <td class="porcentagem">42,10%</td>
+            <td>Irã</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Região Nordeste</td>
+            <td class="population">55 389 382</td>
+            <td class="porcentagem">26,66%</td>
+            <td>Myanmar</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Região Sul</td>
+            <td class="population">30 685 598</td>
+            <td class="porcentagem">14,77%</td>
+            <td>Gana</td>
+        </tr>
+            <tr>
+            <td>4</td>
+            <td>Região Norte</td>
+            <td class="population">17 834 762	</td>
+            <td class="porcentagem">8,58%</td>
+            <td>Países Baixos</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Região Centro-Oeste</td>
+            <td class="population">16 492 326</td>
+            <td class="porcentagem">7,93%</td>
+            <td>Chade</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
